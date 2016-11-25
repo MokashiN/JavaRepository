@@ -1,0 +1,14 @@
+package com.collaboration.dao;
+
+import java.util.List;
+
+import com.collaboration.model.Forum;
+import com.pack.*;
+
+public interface ForumDAO 
+{
+    public void delete(int forumid);
+	public List<Forum> list();
+	 public void save(Forum forum);
+    public Forum get(int forumid);
+}

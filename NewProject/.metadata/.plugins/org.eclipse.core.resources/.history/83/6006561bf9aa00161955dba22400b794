@@ -1,0 +1,8 @@
+package com.collaboration.dao.impl;
+
+public class Snippet {
+	@Column
+		private String mobileNo;
+		
+}
+

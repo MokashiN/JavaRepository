@@ -1,0 +1,14 @@
+package com;
+import java.util.List;
+
+import com.UserDetails;
+public interface TUserDAO 
+{
+	public boolean save(UserDetails user);
+	public boolean update(UserDetails user);
+	public UserDetails get(String id);
+	public List<UserDetails> list();
+	public UserDetails validate(String id,String password);
+	
+
+}

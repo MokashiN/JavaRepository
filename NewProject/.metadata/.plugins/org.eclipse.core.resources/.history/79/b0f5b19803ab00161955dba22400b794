@@ -1,0 +1,9 @@
+package com;
+
+public interface FriendDAO 
+{
+	private List<Friend> getMyFriends(String userID);
+	public Friend get(String userID,String friendID);
+	
+
+}

@@ -1,0 +1,77 @@
+<body class="ng-cloak">
+<div class="generic-container" ng-controller="UserController as ctrl">
+
+<div class="formcontainer">
+
+	<br>
+	
+	<div class="container-fluid">
+
+		<div class="row">
+			<div class="col-sm-6">
+			<div class="col-sm-4">
+
+				<br> <br>
+				<p style="color: #008ae6;">
+					<b>Sign-up</b>
+				</p>
+				<form ng-submit="ctrl.submit()" name="myForm">
+					
+							<div class="form-group input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input type="text" name="name" ng-model="ctrl.user.id" id="name" placeholder="Enter ID"/>   
+		</div>
+					
+					
+					<div class="form-group input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input type="text" name="name" ng-model="ctrl.user.name" id="name" placeholder="User Name"/>   
+		</div>
+		<div class="form-group input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-address"></i></span>
+            <input type="text" name="address" ng-model="ctrl.user.address" id="address" placeholder="User Address"/>   
+		</div>
+         
+          <div class="form-group input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input type="password" name="Password" ng-model="ctrl.user.password" id="Password" placeholder="Password"/>   
+          </div>
+          <div class="form-group input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+            <input type="Email" name="Email" ng-model="ctrl.user.email" id="Email" placeholder="Alternate Email ID"/>
+		</div> 
+          <div class="form-group input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+            <input type=text name="MobileNo" ng-model="ctrl.user.mobileNo" id="MobileNo" placeholder="Mobile Number"/>
+          </div> 
+          
+          <div class="form-group input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-UserRole"></i></span>
+            <input type="text" name="UserRole" ng-model="ctrl.user.userRole" id="UserRole" placeholder="User Role"/>
+		  </div> 
+          
+          <div class="form-group input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-enabled"></i></span>
+            <input type="text" name="Enabled" ng-model="ctrl.user.enabled" id="Enabled" placeholder="Enable "/>
+		  </div> 
+          
+          
+          <div class="form-group input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+            <select  id="gender" ng-model="ctrl.user.gender" name="gender" class="form-control">
+			   <option value="select">--- Select ---</option> 
+			   <option value="Male">Male</option>
+			   <option value="Female">Female</option>		 
+			</select>			      
+          </div> 
+					<button type="submit" class="btn btn-danger" style="width: 500px;">Register</button>
+				</form>
+
+
+			</div>
+		</div>
+
+
+	</div>
+	</div>
+	</div>

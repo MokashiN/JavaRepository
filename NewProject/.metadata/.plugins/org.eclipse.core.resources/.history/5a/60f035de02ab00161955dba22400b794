@@ -1,0 +1,12 @@
+package com;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="C_FRIEND")
+
+public class Friend 
+{
+
+}

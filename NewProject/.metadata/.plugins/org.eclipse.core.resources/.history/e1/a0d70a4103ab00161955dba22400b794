@@ -1,0 +1,29 @@
+package com;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.springframework.stereotype.Component;
+
+@Entity
+@Table(name="C_FRIEND")
+@Component
+public class Friend extends BaseDomain 
+{
+@Id
+private int id;
+
+@Column(name="user_id")
+private String userID;
+
+@Column(name="friend_id")
+private String friendID;
+
+private String status;
+
+@Column(name="is_online")
+
+
+}

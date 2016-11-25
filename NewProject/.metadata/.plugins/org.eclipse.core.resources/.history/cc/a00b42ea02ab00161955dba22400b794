@@ -1,0 +1,14 @@
+package com;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import org.springframework.stereotype.Component;
+
+@Entity
+@Table(name="C_FRIEND")
+@Component
+public class Friend 
+{
+
+}

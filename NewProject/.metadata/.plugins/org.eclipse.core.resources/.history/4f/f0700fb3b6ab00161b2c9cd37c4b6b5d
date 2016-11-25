@@ -1,0 +1,15 @@
+package com.pack;
+
+import java.util.List;
+public interface BlogDAO
+
+{
+	public List<Blog> list();
+	
+    public void saveOrUpdate(Blog blog);
+    
+    public void delete(int id);
+    public void save(Blog blogDetails);
+    public Blog get(int id);
+	
+}

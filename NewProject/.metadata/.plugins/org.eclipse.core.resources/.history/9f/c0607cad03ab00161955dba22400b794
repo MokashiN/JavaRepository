@@ -1,0 +1,11 @@
+package com;
+
+public interface FriendDAO 
+{
+	private List<Friend> getMyFriends(String userID);
+	public Friend get(String userID,String friendID);
+	public boolean save(Friend friend);
+	public boolean update(Friend friend);
+	public void delete(String userID,String friendID);
+
+}

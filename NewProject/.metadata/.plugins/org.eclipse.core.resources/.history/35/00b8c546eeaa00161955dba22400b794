@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="CollaborationBackEnd">
+        <property name="context-root" value="CollaborationBackEnd"/>
+        <property name="java-output-path" value="/CollaborationBackEnd/target/classes"/>
+    </wb-module>
+</project-modules>

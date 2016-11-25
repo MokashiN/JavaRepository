@@ -1,0 +1,11 @@
+package com;
+
+public class TUserDAO 
+{
+	public boolean save(UserDetails user);
+	public boolean update(UserDetails user);
+	public UserDetails get(String id);
+	
+	
+
+}
